@@ -7,6 +7,15 @@ public class Sort {
 	public static boolean less(Comparable x, Comparable y) {
 		return x.compareTo(y) < 0;
 	}
+	public static boolean lessAndEqual(Comparable x, Comparable y) {
+		return x.compareTo(y) <= 0;
+	}
+	public static boolean greater(Comparable x, Comparable y) {
+		return x.compareTo(y) > 0;
+	}
+	public static boolean greaterAndEqual(Comparable x, Comparable y) {
+		return x.compareTo(y) >= 0;
+	}
 
 	public static void exch(Comparable[] data, int i, int j) {
 		Comparable temp = data[i];
