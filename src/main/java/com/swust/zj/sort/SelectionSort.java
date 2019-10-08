@@ -12,7 +12,6 @@ package com.swust.zj.sort;
  */
 public class SelectionSort {
 	public static void sort(Comparable[] data) {
-		// TODO Auto-generated method stub
 		for(int i=0;i<data.length-1;i++) {
 			int minIndex = i;
 			for(int j=i+1;j<data.length;j++) {
