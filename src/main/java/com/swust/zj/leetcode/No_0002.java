@@ -1,14 +1,6 @@
 package com.swust.zj.leetcode;
 
 public class No_0002 {
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode root = null;
@@ -29,5 +21,13 @@ public class No_0002 {
             l2 = l2 == null ? null : l2.next;
         }
         return root;
+    }
+
+    private static class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) {
+            val = x;
+        }
     }
 }
