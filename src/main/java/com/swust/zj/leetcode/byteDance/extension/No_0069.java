@@ -1,4 +1,4 @@
-package com.swust.zj.leetcode.byteDance.expantion;
+package com.swust.zj.leetcode.byteDance.extension;
 
 public class No_0069 {
     public int mySqrt(int x) {
