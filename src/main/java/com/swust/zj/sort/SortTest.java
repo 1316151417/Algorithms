@@ -1,4 +1,4 @@
-package com.swust.zj.sort2021;
+package com.swust.zj.sort;
 
 import java.util.function.Consumer;
 
